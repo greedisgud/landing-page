@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -11,9 +12,20 @@ body{
     margin-top: -20px;
 }
 
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 8px 32px;
+    margin-top: 16px;
+
+}
+
 .header-container{
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -34,7 +46,7 @@ li{
     display: flex;
     background-color: #1F2937;
     flex-direction: column;
-    flex: 1;
+    flex: auto;
     padding-left: 128px;
     padding-right: 128px;
     padding-bottom: 64px;
@@ -57,3 +69,4 @@ li{
     font-size: 18px;
     color: #E5E7EB;
 }
+
