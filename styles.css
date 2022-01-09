@@ -95,6 +95,10 @@ img{
 .info-container{
     display: flex;
     color: #808183;
-    gap: 32px;
-    padding: 32px;
+    gap: 52px;
+}
+
+.text{
+    display: flex;
+    width: 110px;
 }
