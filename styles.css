@@ -70,3 +70,31 @@ li{
     color: #E5E7EB;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+}
+
+.info-title{
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+}
+
+img{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.info-container{
+    display: flex;
+    color: #808183;
+    gap: 32px;
+    padding: 32px;
+}
