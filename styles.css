@@ -2,8 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: roboto;
-    
-
 }
 
 .header{
@@ -153,4 +151,13 @@ img{
 .action-text{
     font-weight: 200px;
     font-style: italic;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937 ;
+    color: white;
+    padding: 16px;
 }
