@@ -102,3 +102,28 @@ img{
     display: flex;
     width: 110px;
 }
+
+.quote-section{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column ;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+
+.thor-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 140px;
+    font-weight: bold;
+}
