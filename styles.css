@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -19,6 +20,8 @@ button{
     border-style: none;
     padding: 8px 32px;
     margin-top: 16px;
+    border-style: solid;
+    border-color:white ;
 
 }
 
@@ -96,6 +99,7 @@ img{
     display: flex;
     color: #808183;
     gap: 52px;
+    padding-bottom: 52px;
 }
 
 .text{
@@ -126,4 +130,26 @@ img{
     justify-content: flex-end;
     padding-right: 140px;
     font-weight: bold;
+}
+
+.action{
+    justify-content: space-between;
+    display: flex;
+    background-color: #3882f6;
+    margin: 64px;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.action-para{
+    color: white;
+}
+
+.action-title{
+    font-size: 21px;
+    font-weight: bold;
+}
+.action-text{
+    font-weight: 200px;
+    font-style: italic;
 }
